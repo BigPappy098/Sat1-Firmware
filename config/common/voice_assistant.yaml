@@ -36,6 +36,7 @@ microphone:
 micro_wake_word:
   id: mww
   models:
+    - model: https://raw.githubusercontent.com/BigPappy098/hey-aragorn-wakeword/refs/heads/main/models/hey_chungg_us.json
     - model: hey_jarvis
       id: hey_jarvis
     - model: https://github.com/kahrendt/microWakeWord/releases/download/okay_nabu_20241226.3/okay_nabu.json
