@@ -36,7 +36,18 @@ microphone:
 micro_wake_word:
   id: mww
   models:
-    - model: https://raw.githubusercontent.com/BigPappy098/hey-aragorn-wakeword/main/models/hey_airuh_gorn.json
+    - model: micro_wake_word:
+  id: mww
+  models:
+    - model: https://raw.githubusercontent.com/BigPappy098/microWakeWord-Trainer-Nvidia-Docker/refs/heads/main/hey_airuh_gorn.json
+      id: hey_airuh_gorn
+    - model: hey_jarvis
+      id: hey_jarvis
+    - model: https://github.com/kahrendt/microWakeWord/releases/download/okay_nabu_20241226.3/okay_nabu.json
+      id: okay_nabu
+    - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
+      id: stop
+      internal: true
       id: hey_airuh_gorn
     - model: hey_jarvis
       id: hey_jarvis
