@@ -36,9 +36,6 @@ microphone:
 micro_wake_word:
   id: mww
   models:
-    - model: micro_wake_word:
-  id: mww
-  models:
     - model: https://raw.githubusercontent.com/BigPappy098/microWakeWord-Trainer-Nvidia-Docker/refs/heads/main/hey_airuh_gorn.json
       id: hey_airuh_gorn
     - model: hey_jarvis
